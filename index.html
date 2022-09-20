@@ -22,7 +22,7 @@
     <header class="header">
       <nav class="container header__navigation">
         <a class="logo" href="/" target="_blank" rel="noreferrer noopener ">
-          <span class="logo-accent">Web</span>Studio
+          <span class="logo__accent">Web</span>Studio
         </a>
         <ul class="header__list">
           <li class="header__item">
@@ -58,8 +58,8 @@
     <main>
       <section class="order">
         <div class="container">
-          <h1 class="order-title"> ЕФЕКТИВНІ РІШЕННЯ ДЛЯ <br />ВАШОГО БІЗНЕСУ </h1>
-          <button class="order-button" name="button" type="button" data-modal-open
+          <h1 class="order__title"> ЕФЕКТИВНІ РІШЕННЯ ДЛЯ <br />ВАШОГО БІЗНЕСУ </h1>
+          <button class="button" name="button" type="button" data-modal-open
             >Замовити послугу</button
           >
         </div>
@@ -67,48 +67,48 @@
       <section class="about">
         <div class="container"
           ><h2 class="visually-hidden">Наші особливості</h2>
-          <ul class="about-list">
-            <li class="about-item">
-              <div class="about-background">
-                <svg class="about-icon">
+          <ul class="about__list">
+            <li class="about__item">
+              <div class="about__background">
+                <svg class="about__icon">
                   <use href="./images/icon.svg#icon-antenna"></use>
                 </svg>
               </div>
-              <h3 class="about-title">УВАГА ДО ДЕТАЛЕЙ</h3>
-              <p class="about-text"
+              <h3 class="about__title">УВАГА ДО ДЕТАЛЕЙ</h3>
+              <p class="about__text"
                 >Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p
               >
             </li>
-            <li class="about-item">
-              <div class="about-background">
-                <svg class="about-icon">
+            <li class="about__item">
+              <div class="about__background">
+                <svg class="about__icon">
                   <use href="./images/icon.svg#icon-clock"></use>
                 </svg>
               </div>
-              <h3 class="about-title">ПУНКТУАЛЬНІСТЬ</h3>
-              <p class="about-text"
+              <h3 class="about__title">ПУНКТУАЛЬНІСТЬ</h3>
+              <p class="about__text"
                 >Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p
               >
             </li>
-            <li class="about-item">
-              <div class="about-background">
-                <svg class="about-icon">
+            <li class="about__item">
+              <div class="about__background">
+                <svg class="about__icon">
                   <use href="./images/icon.svg#icon-diagram"></use>
                 </svg>
               </div>
-              <h3 class="about-title">ПЛАНУВАННЯ</h3>
-              <p class="about-text"
+              <h3 class="about__title">ПЛАНУВАННЯ</h3>
+              <p class="about__text"
                 >Так само консультація з широким активом значною мірою зумовлює.</p
               >
             </li>
-            <li class="about-item">
-              <div class="about-background">
-                <svg class="about-icon">
+            <li class="about__item">
+              <div class="about__background">
+                <svg class="about__icon">
                   <use href="./images/icon.svg#icon-astronaut"></use>
                 </svg>
               </div>
-              <h3 class="about-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-              <p class="about-text"
+              <h3 class="about__title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+              <p class="about__text"
                 >Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p
               >
             </li>
@@ -117,47 +117,47 @@
       </section>
       <section class="dowedo section">
         <div class="container">
-          <h2 class="dowedo-title">Чим ми займаємося</h2>
-          <ul class="dowedo-list">
-            <li class="dowedo-item">
-              <div class="dowedo-thumb">
+          <h2 class="dowedo__title">Чим ми займаємося</h2>
+          <ul class="dowedo__list">
+            <li class="dowedo__item">
+              <div class="dowedo__card">
                 <img
-                  class="about-img"
+                  class="dowedo__img"
                   src="./images/box1.jpg"
                   width="370"
                   height="294"
                   alt="програміст працює в офісі за компютером"
                 />
-                <div class="dowedo-transcript">
-                  <p class="dowedo-text">Десктопні додатки</p>
+                <div class="dowedo__description">
+                  <p class="dowedo__text">Десктопні додатки</p>
                 </div>
               </div>
             </li>
-            <li class="dowedo-item">
-              <div class="dowedo-thumb">
+            <li class="dowedo__item">
+              <div class="dowedo__card">
                 <img
-                  class="about-img"
+                  class="dowedo__img"
                   src="./images/box2.jpg"
                   width="370"
                   height="294"
                   alt="веб дизайнер розроблює додаток для смартфонів"
                 />
-                <div class="dowedo-transcript">
-                  <p class="dowedo-text">Мобільні додатки</p>
+                <div class="dowedo__description">
+                  <p class="dowedo__text">Мобільні додатки</p>
                 </div>
               </div>
             </li>
-            <li class="dowedo-item">
-              <div class="dowedo-thumb">
+            <li class="dowedo__item">
+              <div class="dowedo__card">
                 <img
-                  class="about-img"
+                  class="dowedo__img"
                   src="./images/box3.jpg"
                   width="370"
                   height="294"
                   alt="дизайнер працює з палітрою кольорів на планшеті"
                 />
-                <div class="dowedo-transcript">
-                  <p class="dowedo-text">Дизайнерські рішення</p>
+                <div class="dowedo__description">
+                  <p class="dowedo__text">Дизайнерські рішення</p>
                 </div>
               </div>
             </li>
@@ -165,176 +165,180 @@
         >
       </section>
       <section class="command section">
-        <div class="container"
-          ><h2 class="command-title">Наша команда</h2>
-          <ul class="command-list">
-            <li class="command-item">
-              <img
-                src="./images/img-3.jpg"
-                width="270"
-                height="260"
-                alt="фото чоловіка тридцяти років в окулярах та з бородою"
-              />
-              <div class="command-card">
-                <h3 class="command-name">Ігор Дем'яненко</h3>
-                <p class="command-text" lang="en">Product Designer</p>
-                <ul class="social-list">
-                  <li class="social-item">
-                    <a class="social-link" href="#" aria-label="instagram">
-                      <svg class="icon-social">
+        <div class="container">
+          <h2 class="command__title">Наша команда</h2>
+          <ul class="command__list">
+            <li class="command__item">
+              <article class="command-card">
+                <img
+                  class="command-card__image"
+                  src="./images/img-3.jpg"
+                  width="270"
+                  height="260"
+                  alt="фото чоловіка тридцяти років в окулярах та з бородою"
+                />
+                <h3 class="command-card__name">Ігор Дем'яненко</h3>
+                <p class="command-card__position" lang="en">Product Designer</p>
+                <ul class="socials">
+                  <li class="socials__item">
+                    <a class="socials__link" href="#" aria-label="instagram">
+                      <svg class="socials__icon">
                         <use href="./images/icon.svg#icon-instagram"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="social-item">
-                    <a class="social-link" href="#" aria-label="twitter">
-                      <svg class="icon-social">
+                  <li class="socials__item">
+                    <a class="socials__link" href="#" aria-label="twitter">
+                      <svg class="socials__icon">
                         <use href="./images/icon.svg#icon-twitter"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="social-item">
-                    <a class="social-link" href="#" aria-label="facebook">
-                      <svg class="icon-social">
+                  <li class="socials__item">
+                    <a class="socials__link" href="#" aria-label="facebook">
+                      <svg class="socials__icon">
                         <use href="./images/icon.svg#icon-facebook"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="social-item">
-                    <a class="social-link" href="#" aria-label="linl=kedin">
-                      <svg class="icon-social">
+                  <li class="socials__item">
+                    <a class="socials__link" href="#" aria-label="linl=kedin">
+                      <svg class="socials__icon">
                         <use href="./images/icon.svg#icon-linkedin"></use>
                       </svg>
                     </a>
                   </li>
                 </ul>
-              </div>
+              </article>
             </li>
-            <li class="command-item">
-              <img
-                src="./images/img-2.jpg"
-                width="270"
-                height="260"
-                alt="фото блондинки тридцяти років в окулярах "
-              />
-              <div class="command-card"
-                ><h3 class="command-name">Ольга Рєпіна</h3>
-                <p class="command-text" lang="en">Frontend Developer</p>
-                <ul class="social-list">
-                  <li class="social-item">
-                    <a class="social-link" href="#" aria-label="instagram">
-                      <svg class="icon-social">
+            <li class="command__item">
+              <article class="command-card">
+                <img
+                  class="command-card__image"
+                  src="./images/img-2.jpg"
+                  width="270"
+                  height="260"
+                  alt="фото блондинки тридцяти років в окулярах "
+                />
+                <h3 class="command-card__name">Ольга Рєпіна</h3>
+                <p class="command-card__position" lang="en">Frontend Developer</p>
+                <ul class="socials">
+                  <li class="socials__item">
+                    <a class="socials__link" href="#" aria-label="instagram">
+                      <svg class="socials__icon">
                         <use href="./images/icon.svg#icon-instagram"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="social-item">
-                    <a class="social-link" href="#" aria-label="twitter">
-                      <svg class="icon-social">
+                  <li class="socials__item">
+                    <a class="socials__link" href="#" aria-label="twitter">
+                      <svg class="socials__icon">
                         <use href="./images/icon.svg#icon-twitter"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="social-item">
-                    <a class="social-link" href="#" aria-label="facebook">
-                      <svg class="icon-social">
+                  <li class="socials__item">
+                    <a class="socials__link" href="#" aria-label="facebook">
+                      <svg class="socials__icon">
                         <use href="./images/icon.svg#icon-facebook"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="social-item">
-                    <a class="social-link" href="#" aria-label="linkedin">
-                      <svg class="icon-social">
+                  <li class="socials__item">
+                    <a class="socials__link" href="#" aria-label="linl=kedin">
+                      <svg class="socials__icon">
                         <use href="./images/icon.svg#icon-linkedin"></use>
                       </svg>
                     </a>
                   </li>
                 </ul>
-              </div>
+              </article>
             </li>
-            <li class="command-item">
-              <img
-                src="./images/img-1.jpg"
-                width="270"
-                height="260"
-                alt="фото чоловіка двадцятипяти років в сорочці"
-              />
-              <div class="command-card"
-                ><h3 class="command-name">Микола Тарасов</h3>
-                <p class="command-text" lang="en">Marketing</p>
-                <ul class="social-list">
-                  <li class="social-item">
-                    <a class="social-link" href="#" aria-label="instagram">
-                      <svg class="icon-social">
+            <li class="command__item">
+              <article class="command-card">
+                <img
+                  class="command-card__image"
+                  src="./images/img-1.jpg"
+                  width="270"
+                  height="260"
+                  alt="фото чоловіка двадцятипяти років в сорочці"
+                />
+                <h3 class="command-card__name">Микола Тарасов</h3>
+                <p class="command-card__position" lang="en">Marketing</p>
+                <ul class="socials">
+                  <li class="socials__item">
+                    <a class="socials__link" href="#" aria-label="instagram">
+                      <svg class="socials__icon">
                         <use href="./images/icon.svg#icon-instagram"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="social-item">
-                    <a class="social-link" href="#" aria-label="twitter">
-                      <svg class="icon-social">
+                  <li class="socials__item">
+                    <a class="socials__link" href="#" aria-label="twitter">
+                      <svg class="socials__icon">
                         <use href="./images/icon.svg#icon-twitter"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="social-item">
-                    <a class="social-link" href="#" aria-label="facebook">
-                      <svg class="icon-social">
+                  <li class="socials__item">
+                    <a class="socials__link" href="#" aria-label="facebook">
+                      <svg class="socials__icon">
                         <use href="./images/icon.svg#icon-facebook"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="social-item">
-                    <a class="social-link" href="#" aria-label="linkedin">
-                      <svg class="icon-social">
+                  <li class="socials__item">
+                    <a class="socials__link" href="#" aria-label="linl=kedin">
+                      <svg class="socials__icon">
                         <use href="./images/icon.svg#icon-linkedin"></use>
                       </svg>
                     </a>
                   </li>
                 </ul>
-              </div>
+              </article>
             </li>
-            <li class="command-item">
-              <img
-                src="./images/img.jpg"
-                width="270"
-                height="260"
-                alt="фото чоловіка двадцяти пяти років в окулярах з бородою в чорній футболці"
-              />
-              <div class="command-card"
-                ><h3 class="command-name">Михайло Єрмаков</h3>
-                <p class="command-text" lang="en">UI Designer</p>
-                <ul class="social-list">
-                  <li class="social-item">
-                    <a class="social-link" href="#" aria-label="instagram">
-                      <svg class="icon-social">
+            <li class="command__item">
+              <article class="command-card">
+                <img
+                  class="command-card__image"
+                  src="./images/img.jpg"
+                  width="270"
+                  height="260"
+                  alt="фото чоловіка двадцяти пяти років в окулярах з бородою в чорній футболці"
+                />
+                <h3 class="command-card__name">Михайло Єрмаков</h3>
+                <p class="command-card__position" lang="en">UI Designer</p>
+                <ul class="socials">
+                  <li class="socials__item">
+                    <a class="socials__link" href="#" aria-label="instagram">
+                      <svg class="socials__icon">
                         <use href="./images/icon.svg#icon-instagram"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="social-item">
-                    <a class="social-link" href="#" aria-label="twitter">
-                      <svg class="icon-social">
+                  <li class="socials__item">
+                    <a class="socials__link" href="#" aria-label="twitter">
+                      <svg class="socials__icon">
                         <use href="./images/icon.svg#icon-twitter"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="social-item">
-                    <a class="social-link" href="#" aria-label="facebook">
-                      <svg class="icon-social">
+                  <li class="socials__item">
+                    <a class="socials__link" href="#" aria-label="facebook">
+                      <svg class="socials__icon">
                         <use href="./images/icon.svg#icon-facebook"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="social-item">
-                    <a class="social-link" href="#" aria-label="linkedin">
-                      <svg class="icon-social">
+                  <li class="socials__item">
+                    <a class="socials__link" href="#" aria-label="linl=kedin">
+                      <svg class="socials__icon">
                         <use href="./images/icon.svg#icon-linkedin"></use>
                       </svg>
                     </a>
                   </li>
                 </ul>
-              </div>
+              </article>
             </li> </ul
         ></div>
       </section>
@@ -388,23 +392,21 @@
         </div>
       </section>
     </main>
-    <footer>
-      <div class="container flex">
-        <div class="footer-address">
+    <footer class="footer">
+      <div class="container footer__container">
+        <div class="footer__contacts">
           <a class="logo logo--footer" href="/" target="_blank" rel="noreferrer noopener ">
-            <span class="logo-accent">Web</span>Studio
+            <span class="logo__accent">Web</span>Studio
           </a>
-          <address>
-            <p class="address"> м. Київ, пр-т Лесі Українки, 26</p>
-            <ul class="footer-list">
-              <li class="foot-item"
-                ><a class="contacts-foot" href="mailto:info@devdtudio.com"
-                  >info@devdtudio.com</a
-                ></li
-              >
-              <li class="foot-item"
-                ><a class="contacts-foot" href="tel:+380961111111">+38 (096) 111 11 11</a></li
-              >
+          <address class="address">
+            <p class="address__location"> м. Київ, пр-т Лесі Українки, 26</p>
+            <ul class="address__list">
+              <li class="address__item"
+                ><a class="address__link" href="mailto:info@devdtudio.com">info@devdtudio.com</a>
+              </li>
+              <li class="address__item"
+                ><a class="address__link" href="tel:+380961111111">+38 (096) 111 11 11</a>
+              </li>
             </ul>
           </address>
         </div>
