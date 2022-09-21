@@ -331,6 +331,7 @@ p {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+  padding-bottom: 30px;
 }
 
 .command-card__name {
@@ -351,7 +352,6 @@ p {
   align-items: center;
   justify-content: center;
   gap: 10px;
-  padding-bottom: 30px;
 }
 
 .socials__link {
@@ -381,20 +381,20 @@ p {
 }
 
 /* clients */
-.clients-title {
+.clients__title {
   text-align: center;
   font-weight: 700;
   font-size: 36px;
   line-height: calc(42 / 36);
   margin-bottom: 50px;
 }
-.client-list {
+.client__list {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 30px;
 }
-.client-link {
+.client__link {
   display: flex;
 
   border: 1px solid var(--icon-color);
@@ -404,13 +404,13 @@ p {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.client-link:hover,
-.client-link:focus {
+.client__link:hover,
+.client__link:focus {
   fill: var(--accent-color);
   border-color: var(--accent-color);
 }
 
-.icon-client {
+.clients__icon {
   width: 106px;
   height: 60px;
   color: currentColor;
@@ -455,7 +455,8 @@ footer {
 .address__item:not(:last-child) {
   margin-bottom: 9px;
 }
-.join-title {
+
+.footer__title {
   margin-bottom: 20px;
 
   color: #ffffff;
@@ -464,32 +465,15 @@ footer {
   line-height: calc(16 / 14);
   text-transform: uppercase;
 }
-.join-list {
-  display: flex;
-  gap: 10px;
-}
-.join-link {
-  display: flex;
-  align-items: center;
-  justify-content: center;
 
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
+.footer__socials-link {
   background-color: rgba(255, 255, 255, 0.1);
-  fill: #ffffff;
+  color: #ffffff;
 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.join-link:hover,
-.join-link:focus {
-  background-color: var(--accent-color);
-}
-.icon-join {
-  width: 20px;
-  height: 20px;
-}
-.sub-label {
+
+.subscribe__text {
   display: block;
   margin-bottom: 20px;
 
@@ -500,13 +484,13 @@ footer {
 
   color: #ffffff;
 }
-.subscripe {
+.subscribe__form {
   display: flex;
   flex-direction: row;
   align-items: flex-end;
   gap: 10px;
 }
-.subcripe-input {
+.subcribe__input {
   height: 50px;
   width: 358px;
   padding: 16px 15px;
@@ -518,18 +502,20 @@ footer {
   background-color: var(--footer-bcg-color);
   outline: none;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), filter 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.subcripe-input:focus {
+.subcribe__input:focus,
+.subcribe__input:hover {
   color: var(--accent-color);
   border-color: var(--accent-color);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 }
-.subcripe-input::placeholder {
+.subcribe__input::placeholder {
   font-size: 16px;
   line-height: 1.25;
   color: rgba(255, 255, 255, 0.6);
 }
-.subscripe-btn {
+.subscripe__btn {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -557,12 +543,13 @@ footer {
 
 /* portfolio */
 
-.button-list {
+.portfolio__button-list {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
+  gap: 8px;
 }
-.portfolio-button {
+.portfolio__button {
   /* height: 38px; */
   padding: 6px 22px;
   border-radius: 4px;
@@ -577,17 +564,16 @@ footer {
   cursor: pointer;
 
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.button-item:not(:last-child) {
-  margin-right: 8px;
-}
-
-.portfolio-button:hover,
-.portfolio-button:focus {
+.portfolio__button:hover,
+.portfolio__button:focus {
   background-color: var(--accent-color);
   color: #ffffff;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .portfolio-list {
   display: flex;
