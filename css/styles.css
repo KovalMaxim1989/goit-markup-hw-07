@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --primary-text-color: #757575;
   --title-text-color: #212121;
   --accent-color: #2196f3;
@@ -6,7 +6,7 @@
   --footer-bcg-color: #2f303a;
   --footer-contacts-color: rgba(255, 255, 255, 0.6);
   --icon-color: #afb1b8;
-}
+} */
 
 /* білий #FFFFFF */
 /* колір фону order #2F303A */
@@ -17,7 +17,7 @@
 /* сірий текст  #757575 */
 /* колір контактів футеру rgba(255, 255, 255, 0.6); */
 
-body {
+/* body {
   color: var(--primary-text-color);
 
   font-family: 'Roboto', sans-serif;
@@ -29,10 +29,10 @@ body {
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
-}
+} */
 
 /* GLOBAL STYLES */
-h1,
+/* h1,
 h2,
 h3 {
   margin: 0;
@@ -47,11 +47,11 @@ ul {
 p {
   margin: 0;
   padding: 0;
-}
-.section {
+} */
+/* .section {
   padding: 94px 0;
-}
-.visually-hidden {
+} */
+/* .visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -63,13 +63,13 @@ p {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
+} */
 
 /* лого */
 
-.logo {
+/* .logo {
   display: block;
-  /* margin-right: 93px; */
+  
 
   color: #000000;
   font-family: 'Raleway';
@@ -86,14 +86,13 @@ p {
   margin-right: 0;
 
   color: #ffffff;
-}
+} */
 
 /* шапка */
-.header {
+/* .header {
   background-color: #ffffff;
   border: 1px solid #ececec;
-  /* height: 80px; */
-}
+  }
 .header__navigation {
   display: flex;
   align-items: center;
@@ -169,13 +168,13 @@ p {
   height: 16px;
   margin-right: 10px;
   fill: currentColor;
-}
+} */
 
 /* main */
 
 /* order */
 
-.order {
+/* .order {
   display: block;
   max-width: 1600px;
   height: 600px;
@@ -206,7 +205,7 @@ p {
   color: #ffffff;
 }
 
-.button {
+.order__button {
   min-width: 216px;
   padding: 10px 32px;
 
@@ -226,13 +225,13 @@ p {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.button:focus,
-.button:hover {
+.order__button:focus,
+.order__button:hover {
   background-color: #188ce8;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-}
+} */
 /* about */
-.about {
+/* .about {
   padding-top: 94px;
 }
 
@@ -271,10 +270,10 @@ p {
 .about__text {
   font-size: 14px;
   line-height: 1.71;
-}
+} */
 
 /* dowedo */
-.dowedo__title {
+/* .dowedo__title {
   margin-bottom: 50px;
 
   font-weight: 700;
@@ -307,9 +306,9 @@ p {
   line-height: calc(16 / 14);
   text-transform: uppercase;
   color: #ffffff;
-}
+} */
 /* command */
-.command {
+/* .command {
   background-color: var(--second-bcg-color);
 }
 
@@ -323,8 +322,8 @@ p {
 .command__list {
   display: flex;
   gap: 30px;
-}
-.command-card {
+} */
+/* .command-card {
   width: 270px;
 
   background-color: #ffffff;
@@ -346,8 +345,8 @@ p {
   line-height: 1.19;
   text-align: center;
   margin-bottom: 16px;
-}
-.socials {
+} */
+/* .socials {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -378,10 +377,10 @@ p {
   width: 20px;
   height: 20px;
   fill: currentColor;
-}
+} */
 
 /* clients */
-.clients__title {
+/* .clients__title {
   text-align: center;
   font-weight: 700;
   font-size: 36px;
@@ -414,11 +413,10 @@ p {
   width: 106px;
   height: 60px;
   color: currentColor;
-}
+} */
 
 /* footer */
-footer {
-  /* height: 252px; */
+/* footer {
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: var(--footer-bcg-color);
@@ -539,19 +537,18 @@ footer {
 .subscripe-btn:focus {
   background: #188ce8;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-}
+} */
 
 /* portfolio */
 
-.portfolio__button-list {
+/* .portfolio__button-list {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
   gap: 8px;
 }
 .portfolio__button {
-  /* height: 38px; */
-  padding: 6px 22px;
+    padding: 6px 22px;
   border-radius: 4px;
   border-color: transparent;
   background-color: var(--second-bcg-color);
@@ -580,9 +577,9 @@ footer {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
-}
+} */
 
-.prodoct-card {
+/* .product-card {
   width: 370px;
 
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -642,10 +639,10 @@ footer {
   line-height: 1.88;
 
   color: var(--primary-text-color);
-}
+} */
 
 /* Modal Backdrop */
-.backdrop {
+/* .backdrop {
   position: fixed;
   top: 0;
   left: 0;
@@ -867,4 +864,4 @@ footer {
 .submit-btn:hover {
   background-color: #188ce8;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-}
+} */
